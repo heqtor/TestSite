@@ -1,0 +1,25 @@
+.container-fluid{
+	padding: 0;	
+}
+.navbar-default{
+	background-color: transparent;
+	border: none;
+}
+
+.main-menu{
+	width: 940px;
+	margin: 0 auto;	
+}
+.collapse li{
+	text-transform: uppercase;
+}
+.navbar-header a, .navbar-collapse, .navbar-collapse .nav a{
+	padding:0;
+}
+.navbar-collapse li{
+	padding: 0;
+	padding-left: 42px;
+}
+.navbar-header a, .navbar-collapse .nav a{
+	padding: 5px 0;
+}
