@@ -1,3 +1,16 @@
+
+#wraper{
+	font-family: Arial, serif;
+	font-size: 14px;
+	color: white;
+}
+#wraper a{
+	color: white;
+}
+#header .main-menu li a:hover
+{
+	color:#fed136; 
+}
 .container-fluid{
 	padding: 0;	
 }
@@ -5,9 +18,8 @@
 	background-color: transparent;
 	border: none;
 }
-
 .main-menu{
-	width: 940px;
+	width: 80%;
 	margin: 0 auto;	
 }
 .collapse li{
@@ -20,6 +32,56 @@
 	padding: 0;
 	padding-left: 42px;
 }
-.navbar-header a, .navbar-collapse .nav a{
-	padding: 5px 0;
+.navbar-collapse ul li a{
+	line-height: 28px;
 }
+.logo i{
+	display: block;
+	width: 79px;
+	height: 28px;
+	background: url(image/Logo-Treehouse.png) no-repeat;
+}
+.navbar{
+	min-height: 0;
+	margin-bottom: 0;
+}
+.main-menu{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+}
+.slaid1 img{
+	width: 100%;
+	max-height: 727px;
+}
+.slaid1{
+	text-align: center;
+}
+.slaid1 .text{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 300px;
+}
+.slaid1 .text h3{
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.slaid1 .text h1{
+	font-size: 75px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+.btn{
+	padding: 13px 30px;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-color: #fed136;
+	margin-top: 50px;
+}
+
