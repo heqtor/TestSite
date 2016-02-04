@@ -90,8 +90,10 @@
 #slaid2{
 	text-align: center;
 }
-#slaid2 .col-sm-12, #slaid2 .row, #slaid2 .col-sm-4, #slaid2 .posts,
-#slaid3 .col-sm-12, #slaid3 .row, #slaid3 .col-sm-4, #slaid3 .posts{
+#slaid2 .col-sm-12, #slaid2 .row, #slaid2 .col-sm-4, #slaid2 .post,
+#slaid3 .col-sm-12, #slaid3 .row, #slaid3 .col-sm-4, #slaid3 .post,
+#slaid4 .col-sm-12, #slaid4 .row, #slaid4 .col-sm-4, #slaid4 .post
+{
 	padding: 0;
 	margin: 0;
 }
@@ -132,15 +134,15 @@
 	color: #777777;
 	font-size: 18px;
 	text-transform: none;
-	font-family: "Times New Roman", serif;
+	font-family: "Times New Roman", sans-serif;
 	font-weight: normal;
 	padding: 0;
 	margin: 0;
 }
-#slaid2 .posts .col-sm-4{
+#slaid2 .post .col-sm-4{
 	padding: 0 10px;
 }
-#slaid2 .posts{
+#slaid2 .post{
 	margin-bottom: 107px;
 }
 /*SLIDE 3*/
@@ -161,18 +163,45 @@
 	background-color: #fff;
 }
 #slaid3 .img-post{width: 100%;}
-#slaid3 .posts{
+#slaid3 .post{
 	margin-top: 80px;
 	margin-bottom: 120px;
 }
 #slaid3 .text-cont{
 	padding: 28px 50px;
 }
-#slaid3 .name-post{
-	padding: 0;
-	margin: 0;
-}
+#slaid3 .name-post, 
 #slaid3 .disc-post{
 	padding: 0;
 	margin: 0;
+}
+/*SLIDE 4*/
+#slaid4{
+	background-color: #fff;
+	text-align: center;
+}
+#slaid4 .col-sm-4 .min-cont{
+	background-color: #fff;
+}
+#slaid4 .disc-post{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+#slaid4 .name-post.date{
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+#slaid4 .post1 .text-cont,
+#slaid4 .post3 .text-cont{
+	padding: 0;
+	text-align: right;
+}
+#slaid4 .post2 .text-cont,
+#slaid4 .post4 .text-cont{
+	padding: 0;
+	text-align: left;
+}
+#slaid4 .post{
+	margin: 80px 0 120px 0;
 }

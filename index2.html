@@ -8,9 +8,13 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Bootstrap 101 Template</title>
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="styleload.css" rel="stylesheet" type="text/css">
 	<link href="../font-awesome-4.5.0/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet">
+
+	<script  src="js/jquery-1.12.0.min.js"></script>
+	<script  src="js/skriptload.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -19,6 +23,21 @@
 		<![endif]-->
 	</head>
 	<body>
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_one"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_four"></div>
+					<div class="object" id="object_five"></div>
+					<div class="object" id="object_six"></div>
+					<div class="object" id="object_seven"></div>
+					<div class="object" id="object_eight"></div>
+				</div>
+			</div>
+		</div>
+
 		<div id="wraper">
 			<div id="header">
 				<nav class="navbar navbar-default" role="navigation">
@@ -69,7 +88,7 @@
 							<h3 class="name-slaid">Services</h3>
 							<p class="disc-slaid">Proin iaculis purus consequat sem cure.</p>
 						</div>
-						<div class="col-sm-12 posts">
+						<div class="col-sm-12 post">
 							<div class="class-max-whidth clearfix">
 								<div class="col-sm-4">
 									<img src="image/Icon-Basket.png" class="img-post" height="77" width="78">
@@ -105,14 +124,14 @@
 							<h3 class="name-slaid">Our portfolio</h3>
 							<p class="disc-slaid">Proin iaculis purus consequat sem cure.</p>
 						</div>
-						<div class="col-sm-12 posts">
+						<div class="col-sm-12 post">
 							<div class="class-max-whidth clearfix">
 								<div class="col-sm-4">
 									<div class="min-cont">
 										<img src="image/Image.png" class="img-post" height="300" width="291">
 										<div class="text-cont">
 											<h3 class="name-post">Ebony & Ivory</h3>
-										<p class="disc-post">Branding</p>
+											<p class="disc-post">Branding</p>
 										</div>									
 									</div>
 								</div>
@@ -121,7 +140,7 @@
 										<img src="image/Image3.png" class="img-post" height="300" width="291">
 										<div class="text-cont">
 											<h3 class="name-post">Smart Stationary</h3>
-										<p class="disc-post">Print Design</p>
+											<p class="disc-post">Print Design</p>
 										</div>
 									</div>			
 								</div>
@@ -130,7 +149,7 @@
 										<img src="image/Image4.png" class="img-post" height="300" width="291">
 										<div class="text-cont">
 											<h3 class="name-post">Clever Poster</h3>
-										<p class="disc-post">Print Design</p>
+											<p class="disc-post">Print Design</p>
 										</div>
 									</div>
 								</div>
@@ -139,7 +158,7 @@
 										<img src="image/Image5.png" class="img-post" height="300" width="291">
 										<div class="text-cont">
 											<h3 class="name-post">Vinyl Record</h3>
-										<p class="disc-post">Product Mock-Up</p>
+											<p class="disc-post">Product Mock-Up</p>
 										</div>
 									</div>
 								</div>
@@ -148,7 +167,7 @@
 										<img src="image/Image6.png" class="img-post" height="300" width="291">
 										<div class="text-cont">
 											<h3 class="name-post">Treehouse Template</h3>
-										<p class="disc-post">Web Design</p>
+											<p class="disc-post">Web Design</p>
 										</div>
 									</div>			
 								</div>
@@ -157,7 +176,7 @@
 										<img src="image/Image7.png" class="img-post" height="300" width="291">
 										<div class="text-cont">
 											<h3 class="name-post">Burned Logo</h3>
-										<p class="disc-post">Branding</p>
+											<p class="disc-post">Branding</p>
 										</div>
 									</div>
 								</div>
@@ -166,8 +185,130 @@
 					</div>
 				</div>			
 			</div>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.js"></script>
-		</body>
-		</html>
+			<!-- SLIDE 4 -->
+			<div id="slaid4">
+				<div class="conatiner-fluid">
+					<div class="row">
+						<div class="col-sm-12 top-name">
+							<h3 class="name-slaid">Services</h3>
+							<p class="disc-slaid">Proin iaculis purus consequat sem cure.</p>
+						</div>
+						<div class="col-sm-12">
+							<div class="post clearfix">
+								<div class="col-sm-12 post1">
+									<div class="class-max-whidth clearfix">
+										<div class="col-sm-4 ">
+											<div class="min-cont">
+												<div class="text-cont">
+													<h3 class="name-post date">
+														July 2010
+													</h3>
+													<h3 class="name-post">
+														Our Humble Beginnings
+													</h3>
+													<p class="disc-post">
+														Proin iaculis purus consequat sem cure 
+														digni ssim. Donec porttitora entum suscipit 
+														aenean rhoncus posuere odio in tincidunt. Proin 
+														iaculis purus consequat sem cure digni 
+														ssim. Donec porttitora entum suscipit.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-4">
+												<img src="image/about-image1.png" class="img-post" height="275" width="183">
+											</div>
+										</div>	
+									</div>
+								<div class="col-sm-12 post2">
+									<div class="class-max-whidth clearfix">
+										<div class="col-sm-4 pull-right">
+											<div class="min-cont">
+												<div class="text-cont">
+													<h3 class="name-post date">
+														January 2011
+													</h3>
+													<h3 class="name-post">
+														Facing Startup Battles
+													</h3>
+													<p class="disc-post">
+														Proin iaculis purus consequat sem cure 
+														digni ssim. Donec porttitora entum suscipit 
+														aenean rhoncus posuere odio in tincidunt. Proin 
+														iaculis purus consequat sem cure digni 
+														ssim. Donec porttitora entum suscipit.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-4 pull-right">
+												<img src="image/about-image2.png" class="img-post" height="275" width="183">
+											</div>
+										</div>	
+									</div>
+								<div class="col-sm-12 post3">
+									<div class="class-max-whidth clearfix">
+										<div class="col-sm-4 ">
+											<div class="min-cont">
+												<div class="text-cont">
+													<h3 class="name-post date">
+														December 2012
+													</h3>
+													<h3 class="name-post">
+														Enter The Dark Days
+													</h3>
+													<p class="disc-post">
+														Proin iaculis purus consequat sem cure 
+														digni ssim. Donec porttitora entum suscipit 
+														aenean rhoncus posuere odio in tincidunt. Proin 
+														iaculis purus consequat sem cure digni 
+														ssim. Donec porttitora entum suscipit.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-4">
+												<img src="image/about-image3.png" class="img-post" height="275" width="183">
+											</div>
+										</div>	
+									</div>
+								<div class="col-sm-12 post4">
+									<div class="class-max-whidth clearfix">
+										<div class="col-sm-4 pull-right">
+											<div class="min-cont">
+												<div class="text-cont">
+													<h3 class="name-post date">
+														February 2014
+													</h3>
+													<h3 class="name-post">
+														Our Triumph
+													</h3>
+													<p class="disc-post">
+														Proin iaculis purus consequat sem cure 
+														digni ssim. Donec porttitora entum suscipit 
+														aenean rhoncus posuere odio in tincidunt. Proin 
+														iaculis purus consequat sem cure digni 
+														ssim. Donec porttitora entum suscipit.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-4 pull-right">
+												<img src="image/about-image4.png" class="img-post" height="275" width="183">
+											</div>
+										</div>	
+									</div>
+								<div class="col-sm-12 post5">
+									<div class="class-max-whidth clearfix">
+										<img src="image/about-image5.png" class="img-post" height="182" width="183">
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
